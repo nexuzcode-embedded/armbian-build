@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+
+
+reset;
+
+
+
+ARMBIAN_BUILD_PATH="/home/nexuzcodem/Development/Entwicklungsumgebungen/Firmware-Development/Linux-Development/RootFS/build"
+
+
+
+
+
+echo -e "Launching:> ARMBIAN BUILDSYSTEM ::::....:::..::.:. !!! ... . . ---_- "
+echo -e "\n\n\n"
+echo -e " \n"
+
+echo -e "Dev-Console:> BUILDING ARMBIAN NOW FOR FOLLOWING SPECIFICATIONS: "
+
+
+
+
+
+./compile.sh build BOARD=rpi5 BRANCH=legacy BUILD_DESKTOP=no BUILD_MINIMAL=no KERNEL_BTF=no KERNEL_CONFIGURE=no RELEASE=resolute 
